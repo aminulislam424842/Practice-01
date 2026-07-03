@@ -11,22 +11,22 @@
     <nav>
       <a href="#Home">Home</a>
       <a href="#Teams">Teams</a>
-      <a href="#Gallery">Gallery</a>
+      <a href="#Form">Form</a>
       <a href="#Contact">Contact</a>
     </nav>
   </header>
   <main>
-    <section>
+    <section id="Home">
       <h2>About Club</h2>
       <img height="350" width="100%" src="SportsClub.jpg" alt="SportsClub">
       <p>Welcome to Sports Club, a place where passion, teamwork, and determination come together. Our club is dedicated to promoting a healthy and active lifestyle by providing excellent training facilities and opportunities for athletes of all skill levels. We offer a wide range of sports, including football, cricket, and volleyball, with experienced coaches who help players improve their skills, confidence, and sportsmanship. Beyond competitions, we believe in building strong friendships, discipline, and leadership through teamwork and regular practice. Whether you are a beginner looking to learn a new sport or an experienced athlete aiming to compete at a higher level, Sports Club provides a supportive environment to achieve your goals. Join us today and become part of a community that celebrates fitness, dedication, and the true spirit of sports.</p>
     </section>
-    <section>
+    <section id="Teams">
       <h2>Our Teams</h2>
       <ol>
         <li>Football</li>
-        <li>Cicket</li>
-        <li>Voleyball</li>
+        <li>Cricket</li>
+        <li>Volleyball</li>
       </ol>
     </section>
     <section>
@@ -52,9 +52,9 @@
       <h2>Club Anthem</h2>
       <audio src="a.mp3" controls></audio>
     </section>
-    <section>
+    <section id="Form">
       <h2>Join Club Form</h2>
-      <form >
+      <form action="#" method="post">
         <label for="name">Name:</label>
         <input type="text" id="name" placeholder="Enter Your Name">
         <br><br>
@@ -63,9 +63,9 @@
         <br><br>
         <label for="sport">Favorite Sport:</label>
         <select name="sport" id="sport">
-          <option value="#">Football</option>
-          <option value="#">Cricket</option>
-          <option value="#">Volleyball</option>
+          <option value="football">Football</option>
+          <option value="cricket">Cricket</option>
+          <option value="volleyball">Volleyball</option>
         </select>
         <br><br>
         <button type="submit">Submit</button>
@@ -73,7 +73,7 @@
     </section>
   </main>
   <footer>
-    <h1 id="Contact">Contact me </h1>
+    <h2 id="Contact">Contact me </h2>
     <p>Email : <a href="mailto:aminulislam424842@gmail.com">aminulislam424842@gmail.com</a></p>
     <p>Phone : <a href="tel:01709150885">01709150885</a></p>
     <address>
